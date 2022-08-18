@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(39,198,87); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(39,198,87,1) 0%, rgba(34,181,102,1) 50%, rgba(28,181,92,1) 52%, rgba(104,193,159,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(39,198,87,1) 0%,rgba(34,181,102,1) 50%,rgba(28,181,92,1) 52%,rgba(104,193,159,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(39,198,87,1) 0%,rgba(34,181,102,1) 50%,rgba(28,181,92,1) 52%,rgba(104,193,159,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27c657', endColorstr='#68c19f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+    
+}
+
+
+h1{
+    font-size: 4rem;
+    color: white;
+}
+
+input{
+    width: 30%;
+    height: 5%;
+    border: 1px solid black;
+}
+
+p {
+    color: white;
+    font-weight: bold;;
+}
+
+button{
+    margin: 20px;
+    width: 20%;
+    height: 5%;
+    background-color: rgb(221, 220, 220);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+}
